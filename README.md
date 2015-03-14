@@ -1,4 +1,4 @@
-App Landing Page in Polymer
+AppSite
 ===========================
 
 
@@ -19,3 +19,10 @@ Properties to be edited before publishing:
 - App Details
 
 
+## Vulcanization
+Assuming you're familiar with bower, run the following commands from the root of your project directory to *significantly* reduce page load times.
+
+    npm install -g vulcanize
+    vulcanize index.html --inline
+    
+Vulcanize combines your files to reduce the number of network requests and has a number of flags you can tweak based on your preferences. Once vulcanized, it's safe to delete all the folders except the images folder, since the code is all contained in index.html     
