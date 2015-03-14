@@ -140,6 +140,8 @@ a:active
 
 .icon-and-title-flex
 {
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex; 
 	align-items: center; 
 	flex-wrap: wrap
@@ -190,6 +192,8 @@ a:active
 {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex; 
 	align-items: center
 }
@@ -198,7 +202,7 @@ a:active
 {
 	display: none;
     z-index: 1; 
-    background-color: #D32F2F; 
+    background-color: #d51920; 
     color: #fff; 
     position: absolute; 
     top: -28px; 
@@ -208,7 +212,7 @@ a:active
 .desktop-fab
 {
     z-index: 1; 
-    background-color: #D32F2F; 
+    background-color: #d51920; 
     color: #fff; 
     position: absolute; 
     right: 5%; 
