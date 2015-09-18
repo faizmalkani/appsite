@@ -67,7 +67,7 @@ a:active
 
 .content-card	
 {
-	width: 70%; 
+	width: 60%; 
 	background-color: #fff; 
 	margin: auto; 
 	margin-top: 15%; 
@@ -115,11 +115,36 @@ a:active
 
 .content-works
 {
-	width: 70%; 
+	width: 60%; 
 	background-color: transparent; 
 	margin: auto;
 	overflow: auto;
 	position: relative;
+    padding: 10px 0 10px 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.screenshot-item
+{
+    width: 24%;
+}
+
+.screenshot-item a img
+{
+    width: 100%;
+}
+
+.featherlight .featherlight-image
+{
+    height: 100% !important;
+    width: auto !important;
+    margin: 0 auto;
 }
 
 .intertext-padding
@@ -129,13 +154,13 @@ a:active
 
 .cover-image 
 {
-	background-image:url(../img/cover_image.jpg);
+	background-image:url(../img/appsite_hero.png);
 	background-size:cover;
 	background-position:center;
-	height:50%;
+	height:100%;
 	width:100%;
 	top:0;
-	position:absolute;
+	position:fixed;
 }
 
 .icon-and-title-flex
@@ -149,21 +174,18 @@ a:active
 
 .appicon
 {
-	width: 192px;
-	height: 192px;
+	width: 152px;
+	height: 152px;
+    margin-right: 2em;
 }
 
-.title-container
-{
-	margin-left: 2em;
-}
 
 .details-icon
 {
 	color: #555;
 	width: 1.4em;
 	height: 1.4em;
-	padding-left: 5em;
+	margin-right: 3em;
 }
 
 .text-title
@@ -175,23 +197,23 @@ a:active
 
 .text-subtitle
 {
-	font-size: 1.8em;
-	font-weight: 300;
-	color: #444;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #777;
 }
 
 .text-description
 {
 	word-wrap: break-word;
-	font-size: 1.3em;
-	font-weight: 300;
+	font-size: 1em;
+	font-weight: 400;
+    line-height: 1.5em;
 	color: #111;
 }
 
 .detail-item
 {
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+	margin-top: 30px;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex; 
@@ -202,21 +224,35 @@ a:active
 {
 	display: none;
     z-index: 1; 
-    background-color: #d51920; 
-    color: #fff; 
+    background-color: #00e676 !important; 
+    color: #212121 !important; 
     position: absolute; 
     top: -28px; 
     right: 5%
+}
+
+.desktop-fab-container
+{
+    height: 50%; 
+    width: 20%; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    aliign-items: flex-end;
+    -webkit-align-items: flex-end;
+    justify-content: center;
+    -webkit-justify-content: center;
 }
        	
 .desktop-fab
 {
     z-index: 1; 
-    background-color: #d51920; 
-    color: #fff; 
-    position: absolute; 
-    right: 5%; 
-    bottom: -28px;
+    background-color: #00e676 !important; 
+    color: #212121 !important; 
+    margin-bottom: -28px;
 }	
 
 .empty-space
@@ -267,7 +303,15 @@ a:active
 
 @media (min-width: 800px) and (max-width: 1100px) 
 {
+    .content-card, .content-works
+    {
+        width: 70%
+    }
 
+    .desktop-fab-container
+    {
+        width: 15%
+    }
 
 }
 
@@ -275,8 +319,8 @@ a:active
 {
 	.content-card 
 	{
-		margin-top:45%;
-		width:100%;
+        margin-top: 20%;
+		width:90%;
 		padding:20px;
 	}
 	
@@ -293,8 +337,7 @@ a:active
 	.content-works
 	{		
 		margin-top: 0.5%;
-		width: 100%;
-		padding: 10px;
+		width: 90%;
 	}
 		
 	.works-card
@@ -314,11 +357,18 @@ a:active
 	{
 		font-size: 1.2em;
 	}
+
+    .screenshot-item
+    {
+        width: 49% !important;
+        margin-bottom: 10px;
+    }
+
 	
 	.content-card 
 	{
 		margin-top:45%;
-		width:100%;
+		width:95%;
 		padding:20px;
 	}
 	
@@ -340,8 +390,7 @@ a:active
 	.content-works
 	{		
 		margin-top: 0.5%;
-		width: 100%;
-		padding: 10px;
+		width: 95%;
 	}
 	
 	.works-card
