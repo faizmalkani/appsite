@@ -6,6 +6,7 @@ App Landing Page in Polymer
 
 
 Material Design Website Template for an app's landing page, built with Project Polymer 
+
 Demo: http://faizmalkani.github.io/appsite
 
 Easy to setup and deploy. 
@@ -23,7 +24,6 @@ Properties to be edited before publishing:
 - App Details
 
 
-<<<<<<< HEAD
 ## Vulcanization
 Assuming you're familiar with bower, run the following commands from the root of your project directory to *significantly* reduce page load times.
 
@@ -31,5 +31,3 @@ Assuming you're familiar with bower, run the following commands from the root of
     vulcanize index.html --inline
     
 Vulcanize combines your files to reduce the number of network requests and has a number of flags you can tweak based on your preferences. Once vulcanized, it's safe to delete all the folders except the images folder, since the code is all contained in index.html     
-=======
->>>>>>> 38cecd7df10f0b81daa89ef7ff76ce32ba77b862
