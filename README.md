@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 AppSite
 =======
 App Landing Page in Polymer
