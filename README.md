@@ -2,15 +2,12 @@
 AppSite
 =======
 App Landing Page in Polymer
->>>>>>> 38cecd7df10f0b81daa89ef7ff76ce32ba77b862
 ===========================
 
 
 Material Design Website Template for an app's landing page, built with Project Polymer 
-<<<<<<< HEAD
 Demo: http://faizmalkani.github.io/appsite
 =======
->>>>>>> 38cecd7df10f0b81daa89ef7ff76ce32ba77b862
 
 Easy to setup and deploy. 
 Download the project as a zip, extract it, edit the HTML to match your app's details, and you're good to go!
