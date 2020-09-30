@@ -1,4 +1,4 @@
-AppSite
+AppSite - An Amazing Site in the form of an App
 ===========================
 
 
