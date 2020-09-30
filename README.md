@@ -9,7 +9,7 @@ Easy to setup and deploy.
 Download the project as a zip file, extract it, edit the HTML to match your app's details, and you're ready to go!
 
 Properties to be edited before publishing:
-- Page Title, Description, Keywods, Copyright and Author
+- Page Title, Description, Keywords, Copyright and Author
 - Cover Image *(optional)*
 - Floating Button color, desktop and mobile *(optional)*
 - Floating Button email address, desktop and mobile *(optional)*
