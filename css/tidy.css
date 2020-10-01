@@ -4,7 +4,7 @@
 
 * 
 {
-	font-family:RobotoDraft,sans-serif;
+	font-family:RobotoDraft,sans-serif , Helvetica, Arial;
 	-webkit-transition:all .3s ease;
 	-moz-transition:all .3s ease;
 	-o-transition:all .3s ease;
@@ -292,7 +292,7 @@ a:active
 
 .credits-text
 {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	font-weight: 400;
 }
 
