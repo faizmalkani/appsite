@@ -6,14 +6,14 @@ Material Design Website Template for an app's landing page, built with Project P
 Demo: http://faizmalkani.github.io/appsite
 
 Easy to setup and deploy. 
-Download the project as a zip, extract it, edit the HTML to match your app's details, and you're good to go!
+Download the project as a zip, extract it, edit the HTML to match your own app's details, and you're good to go!
 
 
 Properties to be edited before publishing:
 - Page Title, Description, Keywods, Copyright and Author
 - Cover Image *(optional)*
-- Floating Button color, desktop and mobile *(optional)*
-- Floating Button email address, desktop and mobile *(optional)*
+- Floating Button's colour, desktop and mobile *(optional)*
+- Floating Button's email address, desktop and mobile *(optional)*
 - App Name, Developer Name and App Price
 - App Description
 - Other Apps thumbnails and titles
@@ -21,7 +21,7 @@ Properties to be edited before publishing:
 
 
 ## Vulcanization
-Assuming you're familiar with bower, run the following commands from the root of your project directory to *significantly* reduce page load times.
+Assuming you're familiar with bower, run the following commands from the root of your project directory to *significantly* reduce page load time.
 
     npm install -g vulcanize
     vulcanize index.html --inline
