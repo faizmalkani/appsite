@@ -21,7 +21,7 @@ Properties to be edited before publishing:
 
 
 ## Vulcanization
-Assuming you're familiar with bower, run the following commands from the root of your project directory to *significantly* reduce page load times.
+Assuming you're familiar with bowser, run the following commands from the root of your project directory to *significantly* reduce page load times.
 
     npm install -g vulcanize
     vulcanize index.html --inline
