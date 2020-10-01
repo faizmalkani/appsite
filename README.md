@@ -10,7 +10,7 @@ Download the project as a zip, extract it, edit the HTML to match your app's det
 
 
 Properties to be edited before publishing:
-- Page Title, Description, Keywods, Copyright and Author
+- Page Title, Description, Keywords, Copyright and Author
 - Cover Image *(optional)*
 - Floating Button color, desktop and mobile *(optional)*
 - Floating Button email address, desktop and mobile *(optional)*
