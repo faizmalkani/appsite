@@ -6,7 +6,7 @@ Material Design Website Template for an app's landing page, built with Project P
 Demo: http://faizmalkani.github.io/appsite
 
 Easy to setup and deploy. 
-Download the project as a zip, extract it, edit the HTML to match your app's details, and you're good to go!
+Download the project as a zip then extract it and edit the HTML to match your app's details, and you're good to go!
 
 
 Properties to be edited before publishing:
