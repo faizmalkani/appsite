@@ -14,7 +14,7 @@ Properties to be edited before publishing:
 - Cover Image *(optional)*
 - Floating Button color, desktop and mobile *(optional)*
 - Floating Button email address, desktop and mobile *(optional)*
-- App Name, Developer Name and App Price
+- App Name, Developer Name, App Price and Editor's Choice Tag *(if available)*
 - App Description
 - Other Apps thumbnails and titles
 - App Details
