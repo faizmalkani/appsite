@@ -1,4 +1,4 @@
-AppSite
+AppSite - an app's landing page template, built with Project Polymer
 ===========================
 
 
